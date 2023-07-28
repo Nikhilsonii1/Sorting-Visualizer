@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <div class="heading">
+            <h1>Sorting Visualizer</h1>
+        </div>
+
+        <nav class="navbar">
+
+            <div class="range-inp">
+                <p>Size &nbsp;&nbsp; : </p>
+                <div class="range-slider" id="slider1-container">
+                    <input type="range" class="slider" id="Size" min="10" max="150" step="1" value="80"
+                        placeholder="size">
+                    <div class="slider-thumb">
+                    </div>
+                    <div class="progress"></div>
+                </div>
+                <p>Speed : </p>
+                <div class="range-slider">
+                    <input id="speed" type="range" class="slider" min="1" max="5" step="1" value="3">
+                    <div class="slider-thumb">
+                    </div>
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <div class="Generate">
+                <button class="button-64" role="button"><span id="generate">Generate array</span></button>
+            </div>
+
+            </div>
+
+            <div class="algos">
+                <div class="algorithms">
+                    <button class="button-64" role="button"><span class="">Bubble Sort</span></button>
+                </div>
+                <div class="algorithms">
+                    <button class="button-64 " role="button"><span class="">Insertion Sort</span></button>
+                </div>
+                <div class="algorithms">
+                    <button class="button-64" role="button"><span class="">Selection Sort</span></button>
+                </div>
+                <div class="algorithms">
+                    <button class="button-64" role="button"><span class="">Merge Sort</span></button>
+                </div>
+                <div class="algorithms">
+                    <button class="button-64" role="button"><span class="">Quick Sort</span></button>
+                </div>
+            </div>
+
+        </nav>
+
+
+    </header>
+    <section>
+
+
+        <div id="arr-container" class=".flex-container">
+        </div>
+        <!-- <svg class="wave-top" width="100" viewBox="0 0 1200 250">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z"
+                fill="#0099FF" />
+        </svg> -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="wave" viewBox="0 0 1440 320">
+            <path fill="#000b76" fill-opacity=".7"
+                d="M0,256L34.3,245.3C68.6,235,137,213,206,186.7C274.3,160,343,128,411,128C480,128,549,160,617,186.7C685.7,213,754,235,823,224C891.4,213,960,171,1029,165.3C1097.1,160,1166,192,1234,208C1302.9,224,1371,224,1406,224L1440,224L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+            </path>
+        </svg> -->
+
+
+
+    </section>
+
+
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js'></script>
+    <script src="bubble.js"></script>
+    <script src="insertion.js"></script>
+    <script src="selection.js"></script>
+    <script src="merge.js"></script>
+    <script src="quick.js"></script>
+    <script src="script.js"></script>
+    <script src="utlis.js"></script>
+
+
+
+    <script src="./stylescript.js"></script>
+</body>
+
+</html>
