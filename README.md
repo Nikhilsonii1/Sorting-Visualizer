@@ -19,6 +19,8 @@ Adjustable Speed -> can choose bewteen 5 level of speed
 ![Screenshot (195)](https://github.com/Nikhilsonii1/Sorting-Visualizer/assets/115322991/0dc94852-e1c1-42ba-8390-56b798ab9f3c)
 ![Screenshot (196)](https://github.com/Nikhilsonii1/Sorting-Visualizer/assets/115322991/19f471ad-9db8-44ce-bab7-5dfaf1d57afa)
 
+# Working
 
-https://github.com/Nikhilsonii1/Sorting-Visualizer/assets/115322991/5a9ba978-6278-401c-9cbc-28efd6c31bdb
+
+![Untitled design (5)](https://github.com/Nikhilsonii1/Sorting-Visualizer/assets/115322991/4653eb91-bd4d-4275-b8b1-3421cfc68f9a)
 
